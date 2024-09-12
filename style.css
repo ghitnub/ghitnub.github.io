@@ -1,3 +1,27 @@
+.search-container {
+	float: right;
+	margin-top: 10px;
+}
+
+.search-container input[type="search"] {
+	padding: 5px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+}
+
+.search-container button {
+	background-color: #337ab7;
+	color: #fff;
+	padding: 5px 10px;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+.search-container button:hover {
+	background-color: #23527c;
+}
+
 body {
 	font-family: Arial, sans-serif;
 	margin: 20px;
