@@ -1,0 +1,14 @@
+@font-face {
+  font-family: 'Comic Sans MS Bold';
+  src: url('Comic-Sans-MS-Bold.ttf');
+}
+
+.big-text {
+  font-family: 'Comic Sans MS Bold', sans-serif;
+  font-size: 48px; /* adjust font size as needed */
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
